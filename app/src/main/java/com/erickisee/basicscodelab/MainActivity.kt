@@ -108,7 +108,7 @@ fun Greeting (name: String){
 
 
 @Composable
-fun CardContent(name: String, modifier: Modifier = Modifier) {
+fun CardContent(name: String) {
     var expanded by remember { mutableStateOf(false) }
     
     Row (
